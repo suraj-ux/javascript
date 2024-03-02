@@ -6,7 +6,7 @@ const employeeData =['suraj', 29, 'surajjha228@gmail.com', 'married'];
 //   const employeePlace = employeeIds.concat(employeeData)
 //   .concat(specification);// we use concat for this merge two or more arrays
 
-// here we use opponent of concat
+// here we use opponent of concat this is spread
  const employeePlace =[... employeeData, ... employeeIds, ... specification];
 
   console.log(employeePlace);
